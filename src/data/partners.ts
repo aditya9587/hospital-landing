@@ -1,0 +1,68 @@
+import { InsurancePartner } from "@/types";
+
+export const insurancePartnersData: InsurancePartner[] = [
+  {
+    id: "ins-star",
+    name: "Star Health & Allied Insurance",
+    type: "Private Insurer",
+    claimProcess: "Instant electronic pre-authorization at hospital TPA desk within 2 hours",
+    cashless: true,
+    logo: "Star",
+  },
+  {
+    id: "ins-hdfc",
+    name: "HDFC ERGO General Insurance",
+    type: "Private Insurer",
+    claimProcess: "Direct network cashless settlement with zero out-of-pocket for covered surgical care",
+    cashless: true,
+    logo: "HDFC",
+  },
+  {
+    id: "ins-icici",
+    name: "ICICI Lombard Health Care",
+    type: "Private Insurer",
+    claimProcess: "Seamless digital approval for planned and emergency inpatient hospitalizations",
+    cashless: true,
+    logo: "ICICI",
+  },
+  {
+    id: "ins-nivabupa",
+    name: "Niva Bupa Health Insurance",
+    type: "Private Insurer",
+    claimProcess: "Pre-authorization approved within 30 minutes with 24x7 cashless desk coordination",
+    cashless: true,
+    logo: "Niva",
+  },
+  {
+    id: "ins-care",
+    name: "Care Health Insurance",
+    type: "Private Insurer",
+    claimProcess: "Full cashless cover for cardiac, robotic joint replacement, and cancer therapies",
+    cashless: true,
+    logo: "Care",
+  },
+  {
+    id: "ins-mediassist",
+    name: "Medi Assist TPA",
+    type: "TPA",
+    claimProcess: "Automated digital portal processing corporate employee mediclaim policies",
+    cashless: true,
+    logo: "Medi",
+  },
+  {
+    id: "ins-vidal",
+    name: "Vidal Health / Paramount TPA",
+    type: "TPA",
+    claimProcess: "Dedicated desk in main lobby for fast-track cashless pre-auth and document signoff",
+    cashless: true,
+    logo: "Vidal",
+  },
+  {
+    id: "ins-ayushman",
+    name: "Ayushman Bharat (PM-JAY) & CGHS / ECHS",
+    type: "Government Scheme",
+    claimProcess: "100% cashless hospital empanelment for eligible beneficiaries and defence veterans",
+    cashless: true,
+    logo: "PMJAY",
+  },
+];
